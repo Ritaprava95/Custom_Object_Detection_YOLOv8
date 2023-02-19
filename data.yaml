@@ -1,0 +1,4 @@
+train: E:\Work\Data_Science\Projects\Custom_Object_Detection\data\training_demo\train
+val: E:\Work\Data_Science\Projects\Custom_Object_Detection\data\training_demo\test
+nc: 4
+names: ['sec_1', 'sec_2', 'sec_3', 'sec_4']
