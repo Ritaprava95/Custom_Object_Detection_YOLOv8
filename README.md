@@ -4,8 +4,8 @@ Custom object detection using YOLO v8 from ultralytics
 ## setup environment
 conda create -n ultralytics_yolo python=3.8 <br />
 conda activate ultralytics_yolo <br />
+pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116 <br />
 pip install ultralytics <br />
-conda install pytorch torchvision torchaudio pytorch-cuda=11.6 -c pytorch -c nvidia <br />
 conda install jupyter <br />
 pip install cchardet <br />
 pip install chardet <br />
